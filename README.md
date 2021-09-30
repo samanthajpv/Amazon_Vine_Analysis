@@ -27,7 +27,7 @@ The category of the dataset chosen for this project was Home Entertainment. Belo
 </p>
 
 ### Vine Review Analysis
-Members of the Amazon Vine Program are trusted product reviewers on Amazon (more on [Amazon Vine](https://www.amazon.com/gp/vine/help)). Using the ```vine_table``` created in the ETL process, additional calculations were performed to provide insight on the question if there is a bias from the reviews given by Amazon Vine members.
+Members of the Amazon Vine Program are trusted product reviewers on Amazon (more on [Amazon Vine](https://www.amazon.com/gp/vine/help). Using the ```vine_table``` created in the ETL process, additional calculations were performed to provide insight on the question if there is a bias from the reviews given by Amazon Vine members.
 
 *Note:*
 - Data was filtered to rows where count of ```total_votes``` is greater than or equal to 20 to select the reviews that are more likely to be helpful.
@@ -40,13 +40,13 @@ Members of the Amazon Vine Program are trusted product reviewers on Amazon (more
 </p>
 
 Findings:
-- There is total of 24,301 reviews; 261 under paid reviews, and 24,040 for unpaid reviews. Only 1.07% were from Amazon Vine members. This number shows how Amazon gets really particular in choosing their Vine members. 
+- There is a total of 24,301 reviews; 261 under paid reviews, and 24,040 for unpaid reviews. Only 1.07% were from Amazon Vine members. This number shows how Amazon gets really particular in choosing their Vine members. 
 - There are 106 5-star reviews from the Vine members and 10,899 from unpaid reviewers. The 5-star reviews from Vine members are only 0.96% of all the 5-star ratings.
 - Focusing on the percentage of 5-star ratings relative to the total number of reviews per category (paid vs unpaid), 40.61% of the Vine reviews were 5-stars, and 45.34% for non-Vine reviews. Although there is a small difference between the two, these numbers are comparatively the same. 
 
 ## Summary
 
-state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+Based on the result of the analysis, there is no positivity bias for reviews coming from Vine members. As a matter of fact, the percentage of 5-star ratings from non-Vine members is 4.73% higher than the Vine reviews. -additional analysis to support your statement
 
 ## Reference
 (1) Trilogy Education Services. (2021, September). *Module 16 Challenge*. https://courses.bootcampspot.com/courses/626/assignments/13346?module_item_id=213635
