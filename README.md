@@ -48,7 +48,7 @@ Findings:
 
 Based on the result of the analysis, there is no positivity bias for reviews coming from Vine members. As a matter of fact, the percentage of 5-star ratings from non-Vine members is 4.73% higher than the Vine reviews. 
 
-However, there is a lot to consider when evaluating reviews, especially analyzing biases. Additional statistical calculations can help solidify or break the computed results above. An example of further investigation could be focusing on the products that have Vine reviews. Ratings from those products can then be compared by getting the mean star rating from Vine and non-Vine members. This would reveal whether or not the mean ratings for products with Vine reviews reflect the population rating. The added constraint will help compare apples to apples since the original analysis was composed of reviews from products that may or may not have a Vine review.
+However, there is a lot to consider when evaluating reviews, especially analyzing biases. Additional statistical calculations can help solidify or break the computed results above. An example of further investigation could be focusing on the products that have Vine reviews. Ratings from those products can then be compared by getting the mean star rating from Vine and non-Vine members. This would reveal whether or not the mean ratings for products with Vine reviews reflect the non-Vine ratings. The added constraint will help compare apples to apples since the original analysis was composed of reviews from products that may or may not have a Vine review.
 
 ## Reference
 (1) Trilogy Education Services. (2021, September). *Module 16 Challenge*. https://courses.bootcampspot.com/courses/626/assignments/13346?module_item_id=213635
