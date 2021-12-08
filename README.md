@@ -27,7 +27,7 @@ The category of the dataset chosen for this project was Home Entertainment. Belo
 </p>
 
 ### Vine Review Analysis
-Members of the Amazon Vine Program are trusted product reviewers on Amazon (more on [Amazon Vine](https://www.amazon.com/gp/vine/help). Using the ```vine_table``` created in the ETL process, additional calculations were performed to provide insight on the question if there is a bias from the reviews given by Amazon Vine members.
+Members of the Amazon Vine Program are trusted product reviewers on Amazon (more on [Amazon Vine](https://www.amazon.com/gp/vine/help)). Using the ```vine_table``` created in the ETL process, additional calculations were performed to provide insight on the question if there is a bias from the reviews given by Amazon Vine members.
 
 *Note:*
 - Data was filtered to rows where count of ```total_votes``` is greater than or equal to 20 to select the reviews that are more likely to be helpful.
